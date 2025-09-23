@@ -1,6 +1,8 @@
 {
-  "entrance": "org.allaymc.javaplugintemplate.JavaPluginTemplate",
-  "name": "JavaPluginTemplate",
-  "authors": ["YourNameHere"],
-  "version": "0.1.0"
+  "entrance": "org.midage.midagecore.Loader",
+  "name": "MIDAGECore",
+  "authors": ["AliceXiang"],
+  "version": "0.1.0",
+  "description": "Just a Simple Core .-.",
+  "api_version": ">=0.1.0"
 }

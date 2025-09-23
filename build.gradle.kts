@@ -5,8 +5,8 @@ plugins {
     id("com.github.johnrengelman.shadow") version "8.1.1"
 }
 
-group = "org.allaymc.javaplugintemplate"
-description = "Java plugin template for allay server"
+group = "org.midage.midagecore"
+description = "Just a Simple Core"
 version = "0.1.0"
 
 java {
@@ -21,6 +21,8 @@ repositories {
     maven("https://repo.opencollab.dev/maven-releases/")
     maven("https://repo.opencollab.dev/maven-snapshots/")
     maven("https://storehouse.okaeri.eu/repository/maven-public/")
+    maven("https://www.jetbrains.com/intellij-repository/releases")
+    maven("https://www.jetbrains.com/intellij-repository/snapshots")
 }
 
 dependencies {

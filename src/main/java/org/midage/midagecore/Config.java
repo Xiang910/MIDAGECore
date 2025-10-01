@@ -34,4 +34,20 @@ public class Config extends OkaeriConfig {
         @CustomKey("pool-size")
         private int poolSize = 10;
     }
+
+    @CustomKey("pem")
+    private PlayerEventMessage pem = new PlayerEventMessage();
+
+    @Getter
+    @Accessors(fluent = true)
+    public static class PlayerEventMessage extends OkaeriConfig {
+        @CustomKey("joined")
+        private String joined = " has joined us!";
+
+        @CustomKey("leaving")
+        private String leaving = " has left us..";
+
+        @CustomKey("first-time-join")
+        private String firsttimejoin = " joined us! It's the first time he/she joining us!";
+    }
 }
